@@ -1,0 +1,384 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- Hero -->
+<section id="hero" class="hero-section">
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-orbs">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+    </div>
+    <div class="container h-100">
+        <div class="row align-items-center min-vh-100 py-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                <p class="hero-badge glass-card mb-3">
+                    <i class="fas fa-sparkles me-2"></i> Premium AI Developer Portfolio
+                </p>
+                <h1 class="hero-title mb-3">
+                    Hi, I'm <span class="text-gradient typing-name" id="typingName"></span>
+                </h1>
+                <p class="hero-subtitle typing-role" id="typingRole"></p>
+                <p class="hero-desc">
+                    Building intelligent systems at the intersection of Python, data analytics,
+                    and generative AI — turning complex data into elegant, impactful solutions.
+                </p>
+                <div class="hero-actions mt-4">
+                    <a href="#projects" class="btn btn-primary-glow me-3 mb-2">
+                        <i class="fas fa-rocket me-2"></i>View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-glass mb-2">
+                        <i class="fas fa-envelope me-2"></i>Contact Me
+                    </a>
+                </div>
+                <div class="hero-social mt-4">
+                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ishishahid4@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="hero-illustration-wrapper">
+                    <div class="hero-glow-ring"></div>
+                    <img src="{% static 'images/ai-hero.svg' %}" alt="AI Developer — holographic workspace illustration" class="hero-ai-img floating" width="520" height="560">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        <span class="mouse"></span>
+        <span class="scroll-text">Scroll</span>
+    </a>
+</section>
+
+<!-- About -->
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Crafting Data-Driven <span class="text-gradient">AI Solutions</span></h2>
+        </div>
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-5" data-aos="fade-right">
+                <div class="about-image glass-card p-4 text-center">
+                    <div class="about-avatar">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <h4 class="mt-3 mb-1">Ishmal Shahid</h4>
+                    <p class="text-muted-custom mb-0">Python · Data · AI Engineer</p>
+                </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+                <p class="lead-about">
+                    I am a passionate Python developer and data analyst specializing in artificial
+                    intelligence, business analytics, and full-stack web development. I transform raw
+                    data into actionable insights and build intelligent applications that solve
+                    real-world problems.
+                </p>
+                <p>
+                    With expertise spanning Django, GenAI, Power BI, and modern data pipelines, I deliver
+                    end-to-end solutions — from ETL and visualization to deployable ML-powered products.
+                </p>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="about-stat-card glass-card">
+                            <i class="fas fa-code text-gradient"></i>
+                            <h5>Development</h5>
+                            <p>Scalable Django & Python backends</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="about-stat-card glass-card">
+                            <i class="fas fa-chart-line text-gradient"></i>
+                            <h5>Analytics</h5>
+                            <p>BI dashboards & data storytelling</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="about-stat-card glass-card">
+                            <i class="fas fa-brain text-gradient"></i>
+                            <h5>AI / GenAI</h5>
+                            <p>LLM apps & intelligent automation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-mini mt-5" data-aos="fade-up">
+            <div class="timeline-mini-item glass-card">
+                <span class="year">2026 — Present</span>
+                <p>Focused on AI engineering, Django full-stack, and business intelligence.</p>
+            </div>
+            <div class="timeline-mini-item glass-card">
+                <span class="year">Core Stack</span>
+                <p>Python ecosystem · SQL · Streamlit · Power BI · GenAI pipelines.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section-padding section-alt">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Expertise</span>
+            <h2 class="section-title">Technical <span class="text-gradient">Skills</span></h2>
+        </div>
+        <div class="row g-4">
+            {% for skill in skills %}
+            <div class="col-6 col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="{{ forloop.counter0|add:0 }}0">
+                <div class="skill-card glass-card">
+                    <div class="skill-icon"><i class="{{ skill.icon }}"></i></div>
+                    <h5>{{ skill.name }}</h5>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Portfolio</span>
+            <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+        </div>
+        <div class="row g-4">
+            {% for project in projects %}
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.counter0 }}00">
+                <article class="project-card glass-card">
+                    <div class="project-img-wrap">
+                        <img src="{{ project.image.url }}" alt="{{ project.title }}" class="project-img">
+                        <div class="project-overlay">
+                            {% if project.huggingface_link %}
+                            <a href="{{ project.huggingface_link }}" target="_blank" rel="noopener"
+                               class="project-link-btn project-link-hf" aria-label="Hugging Face">
+                                <i class="fab fa-huggingface"></i>
+                            </a>
+                            {% endif %}
+                            {% if project.github_link %}
+                            <a href="{{ project.github_link }}" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            {% endif %}
+                            {% if project.live_link %}
+                            <a href="{{ project.live_link }}" target="_blank" rel="noopener" class="project-link-btn" aria-label="Live demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="project-body p-4">
+                        <h4>{{ project.title }}</h4>
+                        {% if project.huggingface_link %}
+                        <a href="{{ project.huggingface_link }}" target="_blank" rel="noopener" class="project-hf-badge">
+                            <i class="fab fa-huggingface"></i>
+                            <span>View on Hugging Face</span>
+                        </a>
+                        {% endif %}
+                        <p>{{ project.description|truncatewords:35 }}</p>
+                        <div class="tech-tags">
+                            {% for tech in project.get_tech_list %}
+                            <span class="tech-tag">{{ tech }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </article>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center">
+                <p class="text-muted-custom">Projects coming soon. Add them via Django Admin.</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Certificates -->
+<section id="certificates" class="section-padding section-alt">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Credentials</span>
+            <h2 class="section-title">Certificates & <span class="text-gradient">Achievements</span></h2>
+        </div>
+        <div class="row g-4 cert-gallery">
+            {% for cert in certificates %}
+            <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in">
+                <div class="cert-card glass-card" role="button" tabindex="0"
+                     data-bs-toggle="modal" data-bs-target="#certModal"
+                     data-cert-title="{{ cert.title }}"
+                     data-cert-img="{{ cert.image.url }}"
+                     data-cert-issuer="{{ cert.issuer }}">
+                    <img src="{{ cert.image.url }}" alt="{{ cert.title }}" class="cert-thumb">
+                    <div class="cert-info">
+                        <h6>{{ cert.title }}</h6>
+                        {% if cert.issuer %}<small>{{ cert.issuer }}</small>{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center">
+                <p class="text-muted-custom">Upload certificates via Django Admin.</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Certificate Modal -->
+<div class="modal fade" id="certModal" tabindex="-1" aria-labelledby="certModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content glass-card border-0">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="certModalLabel">Certificate</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center p-4">
+                <img src="" alt="" id="certModalImg" class="cert-modal-img">
+                <p class="mt-3 mb-0 text-muted-custom" id="certModalIssuer"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Experience -->
+<section id="experience" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Career</span>
+            <h2 class="section-title">Work <span class="text-gradient">Experience</span></h2>
+        </div>
+        <div class="timeline" data-aos="fade-up">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">Internship</span>
+                    <h4>Data Analyst Intern</h4>
+                    <h6 class="company-name"><i class="fas fa-building me-2"></i>Techohub</h6>
+                    <p>
+                        Analyzed business datasets, built reporting dashboards, and supported
+                        data-driven decision making. Collaborated on KPI tracking, data cleaning
+                        pipelines, and visualization deliverables for stakeholders.
+                    </p>
+                    <ul class="timeline-tags">
+                        <li>SQL</li>
+                        <li>Excel</li>
+                        <li>Power BI</li>
+                        <li>Pandas</li>
+                        <li>Streamlit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements" class="section-padding section-alt">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Milestones</span>
+            <h2 class="section-title">Key <span class="text-gradient">Achievements</span></h2>
+        </div>
+        <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="achievement-card glass-card text-center">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4>National Skills Test</h4>
+                    <div class="score-ring">
+                        <span class="score-value">88.1</span>
+                        <span class="score-label">Score</span>
+                    </div>
+                    <p class="mt-3 mb-0">
+                        Demonstrated excellence in national-level skills assessment,
+                        validating strong analytical and technical competencies.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="achievement-card glass-card text-center">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4>AI & Data Excellence</h4>
+                    <p class="mt-3 mb-0">
+                        Continuous upskilling in GenAI, Django development, and advanced
+                        analytics — delivering production-ready portfolio projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">Let's Build Something <span class="text-gradient">Amazing</span></h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8" data-aos="fade-up">
+                <div class="contact-card glass-card p-4 p-md-5">
+                    <form method="post" action="{% url 'home' %}#contact" novalidate>
+                        {% csrf_token %}
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="id_name" class="form-label">Name</label>
+                                {{ contact_form.name }}
+                                {% if contact_form.name.errors %}
+                                <div class="invalid-feedback d-block">{{ contact_form.name.errors.0 }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                <label for="id_email" class="form-label">Email</label>
+                                {{ contact_form.email }}
+                                {% if contact_form.email.errors %}
+                                <div class="invalid-feedback d-block">{{ contact_form.email.errors.0 }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-12">
+                                <label for="id_message" class="form-label">Message</label>
+                                {{ contact_form.message }}
+                                {% if contact_form.message.errors %}
+                                <div class="invalid-feedback d-block">{{ contact_form.message.errors.0 }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-12 text-center mt-2">
+                                <button type="submit" class="btn btn-primary-glow btn-lg px-5">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="contact-info row mt-5 g-3 text-center">
+                        <div class="col-md-4">
+                            <i class="fas fa-envelope text-gradient"></i>
+                            <p class="mb-0 mt-2">ishishahid4@gmail.com</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-map-marker-alt text-gradient"></i>
+                            <p class="mb-0 mt-2">Available Worldwide (Remote)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-clock text-gradient"></i>
+                            <p class="mb-0 mt-2">Response within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer glass-card border-0 rounded-0">
+    <div class="container py-4 text-center">
+        <p class="mb-0">&copy; {% now "Y" %} <strong>Ishmal Shahid</strong>. Crafted with Django & AI passion.</p>
+    </div>
+</footer>
+{% endblock %}

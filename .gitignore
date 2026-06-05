@@ -1,0 +1,23 @@
+*.pyc
+__pycache__/
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+.env
+staticfiles/
+.venv/
+venv/
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

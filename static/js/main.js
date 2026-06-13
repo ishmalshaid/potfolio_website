@@ -7,7 +7,9 @@
 
   const TYPING_NAME = "Ishmal Shahid";
   const TYPING_ROLES = [
-    "Python Developer | Data Analyst | AI Engineer",
+    "Python & Backend Developer",
+    "GenAI & LLM Integrator",
+    "Data Analytics & Automation",
   ];
 
   /* Page Loader */

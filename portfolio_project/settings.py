@@ -30,6 +30,7 @@ if RAILWAY_PUBLIC_DOMAIN:
 
 ALLOWED_HOSTS.append(".railway.app")
 ALLOWED_HOSTS.append(".up.railway.app")
+ALLOWED_HOSTS.append(".hf.space")
 
 CSRF_TRUSTED_ORIGINS = []
 for host in ALLOWED_HOSTS:

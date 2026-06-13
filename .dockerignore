@@ -1,0 +1,23 @@
+# Ignore local python files and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Ignore database and media files (if local-only)
+# Note: Keep db.sqlite3 out of the image if you want a clean database run,
+# or include it if you want your pre-configured data to be bundled inside.
+# db.sqlite3
+
+# Git files
+.git
+.gitignore
+
+# OS specific files
+.DS_Store
+Thumbs.db

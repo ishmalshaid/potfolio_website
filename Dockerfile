@@ -21,8 +21,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy project files
 COPY . /app/
 
-# Create a non-root user (Hugging Face default UID is 1000)
-RUN useradd -u 1000 user
+# Create a non-root user (Hugging Face default UID is 1000) and create home directory
+RUN useradd -m -u 1000 user
 RUN chown -R user:user /app
 
 # Switch to the non-root user

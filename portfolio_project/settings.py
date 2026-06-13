@@ -167,3 +167,11 @@ MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 # Allow Hugging Face to embed the portfolio in an iframe
 X_FRAME_OPTIONS = 'ALLOWALL'
 
+# Configure CSRF & Session cookies for iframe compatibility
+CSRF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SAMESITE = 'None'
+SESSION_COOKIE_SECURE = True
+CSRF_TRUSTED_ORIGINS.append("https://huggingface.co")
+
+

@@ -31,5 +31,5 @@ USER user
 # Collect static files
 RUN python manage.py collectstatic --noinput
 
-# Run migrations and start the application
-CMD python manage.py migrate --noinput && gunicorn portfolio_project.wsgi:application --bind 0.0.0.0:7860
+# Run migrations, load seed data, and start the application
+CMD python manage.py migrate --noinput && python manage.py loaddata seed_data.json && gunicorn portfolio_project.wsgi:application --bind 0.0.0.0:7860

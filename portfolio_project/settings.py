@@ -143,14 +143,16 @@ IS_EMAIL_CONFIGURED = (
     and EMAIL_HOST_PASSWORD != "your_gmail_app_password"
 )
 
-if DEBUG and not IS_EMAIL_CONFIGURED:
-    # Use console backend in local development if credentials are not configured
+if not IS_EMAIL_CONFIGURED:
+    # Use console backend if credentials are not configured (both dev and prod)
     EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 else:
     EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
     EMAIL_HOST = "smtp.gmail.com"
     EMAIL_PORT = 587
     EMAIL_USE_TLS = True
+    EMAIL_TIMEOUT = 5  # 5-second timeout to prevent hanging the server
+
 
 DEFAULT_FROM_EMAIL = os.environ.get(
     "DEFAULT_FROM_EMAIL",

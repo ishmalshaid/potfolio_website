@@ -163,3 +163,7 @@ CONTACT_RECIPIENT_EMAIL = os.environ.get(
 
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
+
+# Allow Hugging Face to embed the portfolio in an iframe
+X_FRAME_OPTIONS = 'ALLOWALL'
+

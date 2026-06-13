@@ -1,722 +1,722 @@
-[
-{
-    "model": "auth.user",
-    "fields": {
-        "password": "pbkdf2_sha256$870000$6oSexCn6kNkc142HadOvbI$atbwIKegkfZV8vnHFRtaw59BRtFlfUfwMWt/hrUa6J8=",
-        "last_login": null,
-        "is_superuser": true,
-        "username": "muskan",
-        "first_name": "",
-        "last_name": "",
-        "email": "muskan@gmail.com",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2026-05-25T13:42:27.481Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "auth.user",
-    "fields": {
-        "password": "pbkdf2_sha256$870000$KH7cF7DqsXZFFKYF0DKaBY$0fBYwFC+jw9sMbRPOlIyM6S3ra4i8gV2xYO+LFy11wo=",
-        "last_login": "2026-05-25T13:53:58.749Z",
-        "is_superuser": true,
-        "username": "ishmal",
-        "first_name": "",
-        "last_name": "",
-        "email": "ishmal@gmail.com",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2026-05-25T13:46:10.368Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "auth.user",
-    "fields": {
-        "password": "pbkdf2_sha256$870000$MOWL09D267Xfad8gtcbV7T$KgI8hYzQdCQL1IIbfFjVa2Jl0RZIy+8bqAq6JgZVVIk=",
-        "last_login": null,
-        "is_superuser": true,
-        "username": "iishmal",
-        "first_name": "",
-        "last_name": "",
-        "email": "ishmal@gmail.com",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2026-05-25T13:53:17.332Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "pow6gdlgru3admp2mbavnxua9c29yys5",
-    "fields": {
-        "session_data": "e30:1wRtdM:ZEl6QAb0gx14DGG02oUtPW0OLKuf4B8b7NHZx5mmCCs",
-        "expire_date": "2026-06-09T15:23:56.229Z"
-    }
-},
-{
-    "model": "main_app.project",
-    "pk": 1,
-    "fields": {
-        "title": "AI Career Readiness System",
-        "description": "An intelligent career readiness platform powered by GenAI that analyzes skills gaps, recommends learning paths, and generates personalized interview preparation using NLP and machine learning.",
-        "image": "projects/ceerer_ai_.jpg",
-        "tech_stack": "Python, Gradio, LangChain, Groq API, LLaMA 3 (LLM Models), PyPDF, Pandas, NLP, Prompt Engineering, Agentic AI Workflows",
-        "github_link": "https://huggingface.co/spaces/ishi4/Analysis_your_Next_Step",
-        "huggingface_link": "",
-        "live_link": "",
-        "is_featured": true,
-        "order": 1,
-        "created_at": "2026-05-25T12:53:58.486Z"
-    }
-},
-{
-    "model": "main_app.project",
-    "pk": 2,
-    "fields": {
-        "title": "Business Analytics Dashboard",
-        "description": "Interactive business intelligence dashboard with KPI tracking, revenue forecasting, and dynamic visualizations built for executive decision-making using Power BI and Python analytics.",
-        "image": "projects/bussiness.jpg",
-        "tech_stack": "Python, Streamlit, Pandas,Plotly,Data Visualization, Data Analysis, CSV Data Processing",
-        "github_link": "http://github.com/ishmal793/business-dshboard-",
-        "huggingface_link": "",
-        "live_link": "",
-        "is_featured": true,
-        "order": 2,
-        "created_at": "2026-05-25T12:53:58.501Z"
-    }
-},
-{
-    "model": "main_app.project",
-    "pk": 3,
-    "fields": {
-        "title": "Excel Data Analysis & Dashboard Project",
-        "description": "Analyzed and visualized data using Excel by creating interactive dashboards, charts, and pivot tables to extract actionable insights.",
-        "image": "projects/excel_projects_.jpg",
-        "tech_stack": "Excel, Data Analysis, Data Visualization, Pivot Tables, Charts, Dashboard Design",
-        "github_link": "https://github.com/Ishmal793/Excel_projects",
-        "huggingface_link": "",
-        "live_link": "",
-        "is_featured": true,
-        "order": 0,
-        "created_at": "2026-05-25T14:34:42.953Z"
-    }
-},
-{
-    "model": "main_app.project",
-    "pk": 4,
-    "fields": {
-        "title": "Power BI Business Intelligence Dashboard",
-        "description": "Designed and developed a Power BI dashboard to visualize business performance and key KPIs.\r\nUtilized data modeling and interactive charts to deliver actionable insights for strategic decision-making.",
-        "image": "projects/power_bi.jpg",
-        "tech_stack": "Power BI, Data Visualization, Business Intelligence, DAX, Data Modeling, Excel, SQL, Analytics",
-        "github_link": "https://github.com/Ishmal793/BI_projects",
-        "huggingface_link": "",
-        "live_link": "",
-        "is_featured": true,
-        "order": 0,
-        "created_at": "2026-05-25T14:45:19.822Z"
-    }
-},
-{
-    "model": "main_app.project",
-    "pk": 5,
-    "fields": {
-        "title": "Django Web Development Projects",
-        "description": "Multiple Django web apps including To-Do, Weather, Finance, and Music Player built for learning backend development and CRUD operations.",
-        "image": "projects/django_projects_.jpg",
-        "tech_stack": "Python, Django, SQLite, HTML, CSS",
-        "github_link": "https://github.com/Ishmal793/Django_projects/tree/main",
-        "huggingface_link": "",
-        "live_link": "",
-        "is_featured": true,
-        "order": 0,
-        "created_at": "2026-05-26T14:03:35.680Z"
-    }
-},
-{
-    "model": "main_app.certificate",
-    "pk": 1,
-    "fields": {
-        "title": "Advance Python Programming & Applications",
-        "image": "certificates/cerificate_navttac.jpg",
-        "issuer": "National Vocational and Technical Training Commission, Government of Pakistan",
-        "issue_date": "16 Dec 2024",
-        "order": 0,
-        "created_at": "2026-05-25T12:53:58.513Z"
-    }
-},
-{
-    "model": "main_app.certificate",
-    "pk": 2,
-    "fields": {
-        "title": "Foundations of Agent-Based AI Systems",
-        "image": "certificates/corsera_agent.jpg",
-        "issuer": "Coursera (online learning platform) in collaboration with LearnQuest (professional IT training provider)",
-        "issue_date": "16 Dec, 2025",
-        "order": 0,
-        "created_at": "2026-05-26T14:14:33.325Z"
-    }
-},
-{
-    "model": "main_app.certificate",
-    "pk": 3,
-    "fields": {
-        "title": "Python for Data Science, AI & Development",
-        "image": "certificates/corserra_ppython_.jpg",
-        "issuer": "Coursera (Authorized by IBM) – IBM Skills Network course completion certificate",
-        "issue_date": "16 Dec, 2025",
-        "order": 0,
-        "created_at": "2026-05-26T14:18:38.214Z"
-    }
-},
-{
-    "model": "main_app.certificate",
-    "pk": 4,
-    "fields": {
-        "title": "Generative AI Application Developer Certificate",
-        "image": "certificates/gen_ai_.jpg",
-        "issuer": "UETIANS Lahore Endowment Foundation (NCEAC, HEC, PAkAngels, iCodeGuru, Aspire Pakistan)",
-        "issue_date": "17 March, 2026",
-        "order": 0,
-        "created_at": "2026-05-26T14:23:00.707Z"
-    }
-},
-{
-    "model": "main_app.contactmessage",
-    "pk": 1,
-    "fields": {
-        "name": "muskan",
-        "email": "shahidishmal95@gmail.com",
-        "message": "hi their",
-        "created_at": "2026-05-26T15:23:53.185Z",
-        "is_read": false
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 1,
-    "fields": {
-        "action_time": "2026-05-25T13:56:06.820Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "1",
-        "object_repr": "AI Career Readiness System",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 2,
-    "fields": {
-        "action_time": "2026-05-25T13:57:38.659Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "1",
-        "object_repr": "AI Career Readiness System",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Github link\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 3,
-    "fields": {
-        "action_time": "2026-05-25T13:58:48.763Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "1",
-        "object_repr": "AI Career Readiness System",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 4,
-    "fields": {
-        "action_time": "2026-05-25T14:02:43.471Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "2",
-        "object_repr": "Business Analytics Dashboard",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Github link\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 5,
-    "fields": {
-        "action_time": "2026-05-25T14:08:52.566Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "1",
-        "object_repr": "AI Career Readiness System",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Github link\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 6,
-    "fields": {
-        "action_time": "2026-05-25T14:34:42.954Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "3",
-        "object_repr": "Excel Data Analysis & Dashboard Project",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 7,
-    "fields": {
-        "action_time": "2026-05-25T14:38:02.890Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "1",
-        "object_repr": "AI Career Readiness System",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 8,
-    "fields": {
-        "action_time": "2026-05-25T14:40:37.206Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "2",
-        "object_repr": "Business Analytics Dashboard",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 9,
-    "fields": {
-        "action_time": "2026-05-25T14:45:19.824Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "4",
-        "object_repr": "Power BI Business Intelligence Dashboard",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 10,
-    "fields": {
-        "action_time": "2026-05-25T14:48:10.913Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "1",
-        "object_repr": "AI Career Readiness System",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Tech stack\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 11,
-    "fields": {
-        "action_time": "2026-05-25T14:50:01.697Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "2",
-        "object_repr": "Business Analytics Dashboard",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Tech stack\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 12,
-    "fields": {
-        "action_time": "2026-05-26T14:03:35.683Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "project"
-        ],
-        "object_id": "5",
-        "object_repr": "Django Web Development Projects",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 13,
-    "fields": {
-        "action_time": "2026-05-26T14:09:07.940Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "1",
-        "object_repr": "Advance Python Programming & Applications",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Image\", \"Issuer\", \"Issue date\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 14,
-    "fields": {
-        "action_time": "2026-05-26T14:14:33.327Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "2",
-        "object_repr": "Foundations of Agent-Based AI Systems",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 15,
-    "fields": {
-        "action_time": "2026-05-26T14:18:38.219Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "3",
-        "object_repr": "Python for Data Science, AI & Development",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 16,
-    "fields": {
-        "action_time": "2026-05-26T14:23:00.710Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "4",
-        "object_repr": "Generative AI Application Developer Certificate",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 17,
-    "fields": {
-        "action_time": "2026-05-26T14:26:53.716Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "1",
-        "object_repr": "Advance Python Programming & Applications",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 18,
-    "fields": {
-        "action_time": "2026-05-26T14:27:19.822Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "3",
-        "object_repr": "Python for Data Science, AI & Development",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 19,
-    "fields": {
-        "action_time": "2026-05-26T14:27:29.635Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "3",
-        "object_repr": "Python for Data Science, AI & Development",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 20,
-    "fields": {
-        "action_time": "2026-05-26T14:33:14.970Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "2",
-        "object_repr": "Foundations of Agent-Based AI Systems",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 21,
-    "fields": {
-        "action_time": "2026-05-26T14:34:03.608Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "2",
-        "object_repr": "Foundations of Agent-Based AI Systems",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 22,
-    "fields": {
-        "action_time": "2026-05-26T14:34:57.272Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "2",
-        "object_repr": "Foundations of Agent-Based AI Systems",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 23,
-    "fields": {
-        "action_time": "2026-05-26T14:38:49.907Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "2",
-        "object_repr": "Foundations of Agent-Based AI Systems",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 24,
-    "fields": {
-        "action_time": "2026-05-26T14:40:41.089Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "2",
-        "object_repr": "Foundations of Agent-Based AI Systems",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 25,
-    "fields": {
-        "action_time": "2026-05-26T14:40:48.086Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "3",
-        "object_repr": "Python for Data Science, AI & Development",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 26,
-    "fields": {
-        "action_time": "2026-05-26T14:41:41.922Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "3",
-        "object_repr": "Python for Data Science, AI & Development",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 27,
-    "fields": {
-        "action_time": "2026-05-26T14:42:47.897Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "3",
-        "object_repr": "Python for Data Science, AI & Development",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 28,
-    "fields": {
-        "action_time": "2026-05-26T14:43:27.207Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "4",
-        "object_repr": "Generative AI Application Developer Certificate",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 29,
-    "fields": {
-        "action_time": "2026-05-26T14:44:25.992Z",
-        "user": [
-            "ishmal"
-        ],
-        "content_type": [
-            "main_app",
-            "certificate"
-        ],
-        "object_id": "4",
-        "object_repr": "Generative AI Application Developer Certificate",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
-    }
-}
-]
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$6oSexCn6kNkc142HadOvbI$atbwIKegkfZV8vnHFRtaw59BRtFlfUfwMWt/hrUa6J8=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "muskan",
+        "first_name": "",
+        "last_name": "",
+        "email": "muskan@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-25T13:42:27.481Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$KH7cF7DqsXZFFKYF0DKaBY$0fBYwFC+jw9sMbRPOlIyM6S3ra4i8gV2xYO+LFy11wo=",
+        "last_login": "2026-05-25T13:53:58.749Z",
+        "is_superuser": true,
+        "username": "ishmal",
+        "first_name": "",
+        "last_name": "",
+        "email": "ishmal@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-25T13:46:10.368Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$MOWL09D267Xfad8gtcbV7T$KgI8hYzQdCQL1IIbfFjVa2Jl0RZIy+8bqAq6JgZVVIk=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "iishmal",
+        "first_name": "",
+        "last_name": "",
+        "email": "ishmal@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-25T13:53:17.332Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pow6gdlgru3admp2mbavnxua9c29yys5",
+    "fields": {
+        "session_data": "e30:1wRtdM:ZEl6QAb0gx14DGG02oUtPW0OLKuf4B8b7NHZx5mmCCs",
+        "expire_date": "2026-06-09T15:23:56.229Z"
+    }
+},
+{
+    "model": "main_app.project",
+    "pk": 1,
+    "fields": {
+        "title": "AI Career Readiness System",
+        "description": "An intelligent career readiness platform powered by GenAI that analyzes skills gaps, recommends learning paths, and generates personalized interview preparation using NLP and machine learning.",
+        "image": "projects/ceerer_ai_.jpg",
+        "tech_stack": "Python, Gradio, LangChain, Groq API, LLaMA 3 (LLM Models), PyPDF, Pandas, NLP, Prompt Engineering, Agentic AI Workflows",
+        "github_link": "https://huggingface.co/spaces/ishi4/Analysis_your_Next_Step",
+        "huggingface_link": "",
+        "live_link": "",
+        "is_featured": true,
+        "order": 1,
+        "created_at": "2026-05-25T12:53:58.486Z"
+    }
+},
+{
+    "model": "main_app.project",
+    "pk": 2,
+    "fields": {
+        "title": "Business Analytics Dashboard",
+        "description": "Interactive business intelligence dashboard with KPI tracking, revenue forecasting, and dynamic visualizations built for executive decision-making using Power BI and Python analytics.",
+        "image": "projects/bussiness.jpg",
+        "tech_stack": "Python, Streamlit, Pandas,Plotly,Data Visualization, Data Analysis, CSV Data Processing",
+        "github_link": "http://github.com/ishmal793/business-dshboard-",
+        "huggingface_link": "",
+        "live_link": "",
+        "is_featured": true,
+        "order": 2,
+        "created_at": "2026-05-25T12:53:58.501Z"
+    }
+},
+{
+    "model": "main_app.project",
+    "pk": 3,
+    "fields": {
+        "title": "Excel Data Analysis & Dashboard Project",
+        "description": "Analyzed and visualized data using Excel by creating interactive dashboards, charts, and pivot tables to extract actionable insights.",
+        "image": "projects/excel_projects_.jpg",
+        "tech_stack": "Excel, Data Analysis, Data Visualization, Pivot Tables, Charts, Dashboard Design",
+        "github_link": "https://github.com/Ishmal793/Excel_projects",
+        "huggingface_link": "",
+        "live_link": "",
+        "is_featured": true,
+        "order": 0,
+        "created_at": "2026-05-25T14:34:42.953Z"
+    }
+},
+{
+    "model": "main_app.project",
+    "pk": 4,
+    "fields": {
+        "title": "Power BI Business Intelligence Dashboard",
+        "description": "Designed and developed a Power BI dashboard to visualize business performance and key KPIs.\r\nUtilized data modeling and interactive charts to deliver actionable insights for strategic decision-making.",
+        "image": "projects/power_bi.jpg",
+        "tech_stack": "Power BI, Data Visualization, Business Intelligence, DAX, Data Modeling, Excel, SQL, Analytics",
+        "github_link": "https://github.com/Ishmal793/BI_projects",
+        "huggingface_link": "",
+        "live_link": "",
+        "is_featured": true,
+        "order": 0,
+        "created_at": "2026-05-25T14:45:19.822Z"
+    }
+},
+{
+    "model": "main_app.project",
+    "pk": 5,
+    "fields": {
+        "title": "Django Web Development Projects",
+        "description": "Multiple Django web apps including To-Do, Weather, Finance, and Music Player built for learning backend development and CRUD operations.",
+        "image": "projects/django_projects_.jpg",
+        "tech_stack": "Python, Django, SQLite, HTML, CSS",
+        "github_link": "https://github.com/Ishmal793/Django_projects/tree/main",
+        "huggingface_link": "",
+        "live_link": "",
+        "is_featured": true,
+        "order": 0,
+        "created_at": "2026-05-26T14:03:35.680Z"
+    }
+},
+{
+    "model": "main_app.certificate",
+    "pk": 1,
+    "fields": {
+        "title": "Advance Python Programming & Applications",
+        "image": "certificates/cerificate_navttac.jpg",
+        "issuer": "National Vocational and Technical Training Commission, Government of Pakistan",
+        "issue_date": "16 Dec 2024",
+        "order": 0,
+        "created_at": "2026-05-25T12:53:58.513Z"
+    }
+},
+{
+    "model": "main_app.certificate",
+    "pk": 2,
+    "fields": {
+        "title": "Foundations of Agent-Based AI Systems",
+        "image": "certificates/corsera_agent.jpg",
+        "issuer": "Coursera (online learning platform) in collaboration with LearnQuest (professional IT training provider)",
+        "issue_date": "16 Dec, 2025",
+        "order": 0,
+        "created_at": "2026-05-26T14:14:33.325Z"
+    }
+},
+{
+    "model": "main_app.certificate",
+    "pk": 3,
+    "fields": {
+        "title": "Python for Data Science, AI & Development",
+        "image": "certificates/corserra_ppython_.jpg",
+        "issuer": "Coursera (Authorized by IBM) â€“ IBM Skills Network course completion certificate",
+        "issue_date": "16 Dec, 2025",
+        "order": 0,
+        "created_at": "2026-05-26T14:18:38.214Z"
+    }
+},
+{
+    "model": "main_app.certificate",
+    "pk": 4,
+    "fields": {
+        "title": "Generative AI Application Developer Certificate",
+        "image": "certificates/gen_ai_.jpg",
+        "issuer": "UETIANS Lahore Endowment Foundation (NCEAC, HEC, PAkAngels, iCodeGuru, Aspire Pakistan)",
+        "issue_date": "17 March, 2026",
+        "order": 0,
+        "created_at": "2026-05-26T14:23:00.707Z"
+    }
+},
+{
+    "model": "main_app.contactmessage",
+    "pk": 1,
+    "fields": {
+        "name": "muskan",
+        "email": "shahidishmal95@gmail.com",
+        "message": "hi their",
+        "created_at": "2026-05-26T15:23:53.185Z",
+        "is_read": false
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-05-25T13:56:06.820Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "1",
+        "object_repr": "AI Career Readiness System",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-05-25T13:57:38.659Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "1",
+        "object_repr": "AI Career Readiness System",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Github link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-05-25T13:58:48.763Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "1",
+        "object_repr": "AI Career Readiness System",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-05-25T14:02:43.471Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "2",
+        "object_repr": "Business Analytics Dashboard",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Github link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-05-25T14:08:52.566Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "1",
+        "object_repr": "AI Career Readiness System",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Github link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-05-25T14:34:42.954Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "3",
+        "object_repr": "Excel Data Analysis & Dashboard Project",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-05-25T14:38:02.890Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "1",
+        "object_repr": "AI Career Readiness System",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-05-25T14:40:37.206Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "2",
+        "object_repr": "Business Analytics Dashboard",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-05-25T14:45:19.824Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "4",
+        "object_repr": "Power BI Business Intelligence Dashboard",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-05-25T14:48:10.913Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "1",
+        "object_repr": "AI Career Readiness System",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tech stack\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-05-25T14:50:01.697Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "2",
+        "object_repr": "Business Analytics Dashboard",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tech stack\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-05-26T14:03:35.683Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "project"
+        ],
+        "object_id": "5",
+        "object_repr": "Django Web Development Projects",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-05-26T14:09:07.940Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "1",
+        "object_repr": "Advance Python Programming & Applications",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Image\", \"Issuer\", \"Issue date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-05-26T14:14:33.327Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "2",
+        "object_repr": "Foundations of Agent-Based AI Systems",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-05-26T14:18:38.219Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "3",
+        "object_repr": "Python for Data Science, AI & Development",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-05-26T14:23:00.710Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "4",
+        "object_repr": "Generative AI Application Developer Certificate",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-05-26T14:26:53.716Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "1",
+        "object_repr": "Advance Python Programming & Applications",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-05-26T14:27:19.822Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "3",
+        "object_repr": "Python for Data Science, AI & Development",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-05-26T14:27:29.635Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "3",
+        "object_repr": "Python for Data Science, AI & Development",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-05-26T14:33:14.970Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "2",
+        "object_repr": "Foundations of Agent-Based AI Systems",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-05-26T14:34:03.608Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "2",
+        "object_repr": "Foundations of Agent-Based AI Systems",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-05-26T14:34:57.272Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "2",
+        "object_repr": "Foundations of Agent-Based AI Systems",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-05-26T14:38:49.907Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "2",
+        "object_repr": "Foundations of Agent-Based AI Systems",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-05-26T14:40:41.089Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "2",
+        "object_repr": "Foundations of Agent-Based AI Systems",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-05-26T14:40:48.086Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "3",
+        "object_repr": "Python for Data Science, AI & Development",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-05-26T14:41:41.922Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "3",
+        "object_repr": "Python for Data Science, AI & Development",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-05-26T14:42:47.897Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "3",
+        "object_repr": "Python for Data Science, AI & Development",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-05-26T14:43:27.207Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "4",
+        "object_repr": "Generative AI Application Developer Certificate",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-05-26T14:44:25.992Z",
+        "user": [
+            "ishmal"
+        ],
+        "content_type": [
+            "main_app",
+            "certificate"
+        ],
+        "object_id": "4",
+        "object_repr": "Generative AI Application Developer Certificate",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Issuer\"]}}]"
+    }
+}
+]

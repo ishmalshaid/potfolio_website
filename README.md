@@ -1,3 +1,13 @@
+---
+title: My Portfolio
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Ishmal Shahid — Premium AI Developer Portfolio
 
 A modern, fully responsive Django portfolio with glassmorphism UI, AOS animations, dark/light mode, and Gmail contact integration.

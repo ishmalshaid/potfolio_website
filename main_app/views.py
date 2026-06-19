@@ -41,7 +41,7 @@ def home(request):
             description="An intelligent career readiness platform powered by GenAI that analyzes skills gaps, recommends learning paths, and generates personalized interview preparation using NLP and machine learning.",
             image_name="ceerer_ai_.jpg",
             tech_stack="Python, Gradio, LangChain, Groq API, LLaMA 3 (LLM Models), PyPDF, Pandas, NLP, Prompt Engineering, Agentic AI Workflows",
-            github_link="https://huggingface.co/spaces/ishi4/Analysis_your_Next_Step",
+            huggingface_link="https://huggingface.co/spaces/ishi4/Analysis_your_Next_Step",
         ),
         StaticProject(
             title="Business Analytics Dashboard",

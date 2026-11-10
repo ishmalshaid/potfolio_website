@@ -15,6 +15,7 @@
       easing: "ease-out-cubic",
       once: true,
       offset: 50,
+      disable: window.innerWidth < 768,
     });
   }
 

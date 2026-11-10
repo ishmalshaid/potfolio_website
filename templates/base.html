@@ -74,16 +74,16 @@
     <!-- Top Site Navigation -->
     <header class="site-header">
         <nav class="navbar navbar-expand-lg fixed-top nav-container" id="mainNav" aria-label="Main Navigation">
-            <div class="container-portfolio d-flex align-items-center justify-content-between w-100">
+            <div class="container-portfolio d-flex flex-wrap align-items-center justify-content-between">
                 <!-- Branding -->
-                <a class="navbar-brand brand-link" href="#hero">
+                <a class="navbar-brand brand-link d-flex align-items-center gap-2" href="#hero">
                     <span class="brand-title">Ishmal Shahid</span>
-                    <span class="brand-divider">/</span>
-                    <span class="brand-subtitle">Developer &middot; Analyst</span>
+                    <span class="brand-divider d-none d-sm-inline">/</span>
+                    <span class="brand-subtitle d-none d-sm-inline">Developer &middot; Analyst</span>
                 </a>
 
                 <!-- Mobile Action Controls -->
-                <div class="d-flex align-items-center gap-2 d-lg-none">
+                <div class="d-flex align-items-center gap-2 d-lg-none flex-shrink-0">
                     <button class="btn btn-icon theme-toggle-btn" id="themeToggleMobile" aria-label="Toggle dark/light theme">
                         <i class="fas fa-moon theme-icon"></i>
                     </button>
@@ -95,8 +95,8 @@
                 </div>
 
                 <!-- Navigation Links & Action Button -->
-                <div class="collapse navbar-collapse flex-grow-0" id="navMenu">
-                    <ul class="navbar-nav align-items-lg-center gap-1">
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav align-items-lg-center gap-1 w-100 py-2 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
@@ -106,8 +106,8 @@
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
 
-                    <div class="d-flex align-items-center gap-3 ms-lg-4 mt-3 mt-lg-0">
-                        <a href="{% url 'download_cv' %}" class="btn btn-secondary btn-sm" id="navCvDownloadBtn">
+                    <div class="d-flex align-items-center gap-3 ms-lg-4 mt-3 mt-lg-0 pt-2 pt-lg-0 border-top border-top-lg-0 w-100 w-lg-auto">
+                        <a href="{% url 'download_cv' %}" class="btn btn-secondary btn-sm w-100 w-lg-auto justify-content-center" id="navCvDownloadBtn">
                             <i class="fas fa-arrow-down me-1"></i>
                             <span>Resume</span>
                         </a>
